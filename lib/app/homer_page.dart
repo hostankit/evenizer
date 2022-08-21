@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 
 import 'event_system/event_detail/event_dashboard.dart';
 import 'event_system/schedule_event.dart';
+import 'manage_system/manage_system.dart';
 
 class HomerPage extends StatefulWidget {
   const HomerPage({Key? key}) : super(key: key);
@@ -172,7 +173,7 @@ class _HomerPageState extends State<HomerPage> {
                                         onTap: () {
                                           Navigator.push(
                                             context,
-                                            MaterialPageRoute(builder: (context) => EventInvite()),
+                                            MaterialPageRoute(builder: (context) => ManageSystem()),
                                           );
                                         },
                                         child: Container(

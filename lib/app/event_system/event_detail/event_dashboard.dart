@@ -46,7 +46,7 @@ class _EventDashboardState extends State<EventDashboard> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => ViewEvent(eventdata: FileType.any,)),
+                MaterialPageRoute(builder: (context) => ViewEvent(eventdata: 'AICTEWy7fdHa2',)),
               );
             },
             child: Container(
@@ -90,7 +90,7 @@ class _EventDashboardState extends State<EventDashboard> {
                       children: [
                         SizedBox(height: 10),
                         Text(
-                          'NEAT Sensitization Webinar',
+                          'Cybercrime',
                           style: TextStyle(
                               fontWeight:FontWeight.w500,
                               fontSize: 18
@@ -98,7 +98,7 @@ class _EventDashboardState extends State<EventDashboard> {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          'Date & Time:\n30 Dec 2021 & 11:30AM-12:30PM',
+                          'Date & Time:\n30 Mar 2022 & 11:30AM-12:00PM',
                           style: TextStyle(
                               fontWeight:FontWeight.w400,
                               fontSize: 16

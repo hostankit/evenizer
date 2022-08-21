@@ -738,7 +738,7 @@ class _InviteInitFormState extends State<InviteInitForm> {
     print(eventnewdata);
     Navigator.pushAndRemoveUntil<Widget>(
         context,
-        MaterialPageRoute(builder: (context) => ViewEvent(eventdata: eventnewdata)),
+        MaterialPageRoute(builder: (context) => ViewEvent(eventdata: eventid)),
             (Route<dynamic> route) => route.isFirst
     );
   }
